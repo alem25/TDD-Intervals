@@ -65,7 +65,7 @@
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
   <testcase name="givenIntervaOpenOpenlwhenIncludeWithIncludedValueThenTrue" classname="usantatecla.IntervalTest" time="0.001"/>
-  <testcase name="givenIntervaOpenOpenlwhenIncludeWithInclude5dValueThenTrue" classname="usantatecla.IntervalTest" time="0.001"/>
+  <testcase name="givenIntervaOpenOpenlwhenIncludeWithInclude5dValueThenTrue" classname="usantatecla.IntervalTest" time="0"/>
   <testcase name="givenIntervaOpenOpenlwhenInc3ludeWithIncludedValueThenTrue" classname="usantatecla.IntervalTest" time="0"/>
   <testcase name="givenIntervaOpenOpenlwhenIncludeWit3hIncludedValueThenTrue" classname="usantatecla.IntervalTest" time="0"/>
 </testsuite>

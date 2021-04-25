@@ -37,4 +37,11 @@ public class TwoOpenIntervalsTest {
         assertFalse(this.firstOpenInterval.includeOtherInterval(this.secondOpenInterval));
     }
 
+    @Test
+    public void givenTwoIntervalsWhenFirstIncludeSecondIntervalThenFalse2() {
+        this.firstOpenInterval = new IntervalBuilder().open(this.point3.getEquals()).open(this.point4.getEquals()).build();
+        this.secondOpenInterval = new IntervalBuilder().open(this.point1.getEquals()).open(this.point2.getEquals()).build();
+        assertFalse(this.firstOpenInterval.includeOtherInterval(this.secondOpenInterval));
+    }
+
 }
