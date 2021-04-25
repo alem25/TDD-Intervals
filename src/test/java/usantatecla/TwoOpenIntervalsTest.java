@@ -65,4 +65,11 @@ public class TwoOpenIntervalsTest {
         assertTrue(this.firstOpenInterval.intersectsWithOtherInterval(this.secondOpenInterval));
     }
 
+    @Test
+    public void givenTwoIntervalsWhenFirstIntersectsSecondIntervalThenFalse3() {
+        this.firstOpenInterval = new IntervalBuilder().open(this.point1.getEquals()).open(this.point2.getEquals()).build();
+        this.secondOpenInterval = new IntervalBuilder().open(this.point2.getEquals()).open(this.point3.getEquals()).build();
+        assertFalse(this.firstOpenInterval.intersectsWithOtherInterval(this.secondOpenInterval));
+    }
+
 }

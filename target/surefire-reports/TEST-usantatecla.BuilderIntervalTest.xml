@@ -64,7 +64,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="givenIntervalBuilderWhenClosedClosed" classname="usantatecla.BuilderIntervalTest" time="0.018"/>
+  <testcase name="givenIntervalBuilderWhenClosedClosed" classname="usantatecla.BuilderIntervalTest" time="0.017"/>
   <testcase name="givenIntervalBuilderWhenClosedOpen" classname="usantatecla.BuilderIntervalTest" time="0"/>
   <testcase name="givenIntervalBuilderWhenOpenOpen" classname="usantatecla.BuilderIntervalTest" time="0.001"/>
   <testcase name="givenIntervalBuilderWhenOpenClosed" classname="usantatecla.BuilderIntervalTest" time="0"/>
