@@ -65,10 +65,10 @@
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
   <testcase name="givenTwoIntervalsWhenFirstIntersectsSecondIntervalThenTrue" classname="usantatecla.TwoClosedIntervalsTest" time="0"/>
-  <testcase name="givenTwoIntervalsWhenFirstIntersectsSecondIntervalThenFalse" classname="usantatecla.TwoClosedIntervalsTest" time="0"/>
+  <testcase name="givenTwoIntervalsWhenFirstIntersectsSecondIntervalThenFalse" classname="usantatecla.TwoClosedIntervalsTest" time="0.001"/>
   <testcase name="givenTwoIntervalsWhenFirstIntersectsSecondIntervalThenTrue2" classname="usantatecla.TwoClosedIntervalsTest" time="0.001"/>
-  <testcase name="givenTwoIntervalsWhenFirstIntersectsSecondIntervalThenTrue3" classname="usantatecla.TwoClosedIntervalsTest" time="0.001"/>
+  <testcase name="givenTwoIntervalsWhenFirstIntersectsSecondIntervalThenTrue3" classname="usantatecla.TwoClosedIntervalsTest" time="0"/>
   <testcase name="givenTwoIntervalsWhenFirstIntersectsSecondIntervalThenTrue4" classname="usantatecla.TwoClosedIntervalsTest" time="0.001"/>
   <testcase name="givenTwoIntervalsWhenFirstIntersectsSecondIntervalThenTrue5" classname="usantatecla.TwoClosedIntervalsTest" time="0"/>
-  <testcase name="givenTwoIntervalsWhenFirstIntersectsSecondIntervalThenFalse2" classname="usantatecla.TwoClosedIntervalsTest" time="0"/>
+  <testcase name="givenTwoIntervalsWhenFirstIntersectsSecondIntervalThenFalse2" classname="usantatecla.TwoClosedIntervalsTest" time="0.001"/>
 </testsuite>
