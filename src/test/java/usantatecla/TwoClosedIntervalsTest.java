@@ -29,4 +29,25 @@ public class TwoClosedIntervalsTest {
         this.secondOpenInterval = new IntervalBuilder().closed(this.point2.getEquals()).closed(this.point3.getEquals()).build();
         assertTrue(this.firstOpenInterval.intersectsWithOtherInterval(this.secondOpenInterval));
     }
+
+    @Test
+    public void givenTwoIntervalsWhenFirstIntersectsSecondIntervalThenFalse() {
+        this.firstOpenInterval = new IntervalBuilder().closed(this.point1.getEquals()).closed(this.point2.getEquals()).build();
+        this.secondOpenInterval = new IntervalBuilder().closed(this.point3.getEquals()).closed(this.point4.getEquals()).build();
+        assertFalse(this.firstOpenInterval.intersectsWithOtherInterval(this.secondOpenInterval));
+    }
+
+    @Test
+    public void givenTwoIntervalsWhenFirstIntersectsSecondIntervalThenFalse2() {
+        this.firstOpenInterval = new IntervalBuilder().closed(this.point3.getEquals()).closed(this.point4.getEquals()).build();
+        this.secondOpenInterval = new IntervalBuilder().closed(this.point1.getEquals()).closed(this.point2.getEquals()).build();
+        assertFalse(this.firstOpenInterval.intersectsWithOtherInterval(this.secondOpenInterval));
+    }
+
+    @Test
+    public void givenTwoIntervalsWhenFirstIntersectsSecondIntervalThenTrue2() {
+        this.firstOpenInterval = new IntervalBuilder().closed(this.point2.getEquals()).closed(this.point3.getEquals()).build();
+        this.secondOpenInterval = new IntervalBuilder().closed(this.point1.getEquals()).closed(this.point4.getEquals()).build();
+        assertTrue(this.firstOpenInterval.intersectsWithOtherInterval(this.secondOpenInterval));
+    }
 }
