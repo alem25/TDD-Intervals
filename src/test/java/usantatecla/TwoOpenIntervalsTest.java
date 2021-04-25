@@ -24,28 +24,28 @@ public class TwoOpenIntervalsTest {
     }
 
     @Test
-    public void givenTwoIntervalsWhenFirstIncludeSecondIntervalThenTrue() {
+    public void givenTwoIntervalsWhenFirstIntersectsSecondIntervalThenTrue() {
         this.firstOpenInterval = new IntervalBuilder().open(this.point1.getEquals()).open(this.point4.getEquals()).build();
         this.secondOpenInterval = new IntervalBuilder().open(this.point2.getEquals()).open(this.point3.getEquals()).build();
         assertTrue(this.firstOpenInterval.intersectsWithOtherInterval(this.secondOpenInterval));
     }
 
     @Test
-    public void givenTwoIntervalsWhenFirstIncludeSecondIntervalThenFalse() {
+    public void givenTwoIntervalsWhenFirstIntersectsSecondIntervalThenFalse() {
         this.firstOpenInterval = new IntervalBuilder().open(this.point1.getEquals()).open(this.point2.getEquals()).build();
         this.secondOpenInterval = new IntervalBuilder().open(this.point3.getEquals()).open(this.point4.getEquals()).build();
         assertFalse(this.firstOpenInterval.intersectsWithOtherInterval(this.secondOpenInterval));
     }
 
     @Test
-    public void givenTwoIntervalsWhenFirstIncludeSecondIntervalThenFalse2() {
+    public void givenTwoIntervalsWhenFirstIntersectsSecondIntervalThenFalse2() {
         this.firstOpenInterval = new IntervalBuilder().open(this.point3.getEquals()).open(this.point4.getEquals()).build();
         this.secondOpenInterval = new IntervalBuilder().open(this.point1.getEquals()).open(this.point2.getEquals()).build();
         assertFalse(this.firstOpenInterval.intersectsWithOtherInterval(this.secondOpenInterval));
     }
 
     @Test
-    public void givenTwoIntervalsWhenFirstIncludeSecondIntervalThenTrue2() {
+    public void givenTwoIntervalsWhenFirstIntersectsSecondIntervalThenTrue2() {
         this.firstOpenInterval = new IntervalBuilder().open(this.point2.getEquals()).open(this.point3.getEquals()).build();
         this.secondOpenInterval = new IntervalBuilder().open(this.point1.getEquals()).open(this.point4.getEquals()).build();
         assertTrue(this.firstOpenInterval.intersectsWithOtherInterval(this.secondOpenInterval));

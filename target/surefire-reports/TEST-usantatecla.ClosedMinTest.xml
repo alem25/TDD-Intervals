@@ -66,5 +66,5 @@
   </properties>
   <testcase name="givenMinWhenIsWithinWithLessValueThenTrue" classname="usantatecla.ClosedMinTest" time="0"/>
   <testcase name="givenMinWhenIsWithinWithGreaterValueThenTrue" classname="usantatecla.ClosedMinTest" time="0.001"/>
-  <testcase name="givenMinWhenIsWithinWithEqualsValue" classname="usantatecla.ClosedMinTest" time="0.001"/>
+  <testcase name="givenMinWhenIsWithinWithEqualsValue" classname="usantatecla.ClosedMinTest" time="0"/>
 </testsuite>
