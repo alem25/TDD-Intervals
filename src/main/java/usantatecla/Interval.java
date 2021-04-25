@@ -16,7 +16,7 @@ public class Interval {
 	}
 
 	public boolean intersectsWithOtherInterval(Interval secondInterval) {
-		return !(!this.max.isWithin(secondInterval.min.value) || !this.min.isWithin(secondInterval.max.value));
+		return this.max.isWithin(secondInterval.min.value) && this.min.isWithin(secondInterval.max.value);
 	}
 
 	@Override

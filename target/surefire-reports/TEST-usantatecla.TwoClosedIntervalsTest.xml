@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="usantatecla.TwoClosedIntervalsTest" time="0.008" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="usantatecla.TwoClosedIntervalsTest" time="0.006" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.10+9"/>
@@ -67,8 +67,8 @@
   <testcase name="givenTwoIntervalsWhenFirstIntersectsSecondIntervalThenTrue" classname="usantatecla.TwoClosedIntervalsTest" time="0"/>
   <testcase name="givenTwoIntervalsWhenFirstIntersectsSecondIntervalThenFalse" classname="usantatecla.TwoClosedIntervalsTest" time="0.001"/>
   <testcase name="givenTwoIntervalsWhenFirstIntersectsSecondIntervalThenTrue2" classname="usantatecla.TwoClosedIntervalsTest" time="0.001"/>
-  <testcase name="givenTwoIntervalsWhenFirstIntersectsSecondIntervalThenTrue3" classname="usantatecla.TwoClosedIntervalsTest" time="0"/>
-  <testcase name="givenTwoIntervalsWhenFirstIntersectsSecondIntervalThenTrue4" classname="usantatecla.TwoClosedIntervalsTest" time="0.001"/>
-  <testcase name="givenTwoIntervalsWhenFirstIntersectsSecondIntervalThenTrue5" classname="usantatecla.TwoClosedIntervalsTest" time="0"/>
-  <testcase name="givenTwoIntervalsWhenFirstIntersectsSecondIntervalThenFalse2" classname="usantatecla.TwoClosedIntervalsTest" time="0.001"/>
+  <testcase name="givenTwoIntervalsWhenFirstIntersectsSecondIntervalThenTrue3" classname="usantatecla.TwoClosedIntervalsTest" time="0.001"/>
+  <testcase name="givenTwoIntervalsWhenFirstIntersectsSecondIntervalThenTrue4" classname="usantatecla.TwoClosedIntervalsTest" time="0"/>
+  <testcase name="givenTwoIntervalsWhenFirstIntersectsSecondIntervalThenTrue5" classname="usantatecla.TwoClosedIntervalsTest" time="0.001"/>
+  <testcase name="givenTwoIntervalsWhenFirstIntersectsSecondIntervalThenFalse2" classname="usantatecla.TwoClosedIntervalsTest" time="0"/>
 </testsuite>
