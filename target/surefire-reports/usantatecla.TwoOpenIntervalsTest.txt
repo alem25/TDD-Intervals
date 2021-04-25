@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: usantatecla.TwoOpenIntervalsTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec - in usantatecla.TwoOpenIntervalsTest
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.014 sec <<< FAILURE! - in usantatecla.TwoOpenIntervalsTest
+givenTwoIntervalsWhenFirstIncludeSecondIntervalThenFalse()  Time elapsed: 0.013 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <true>
+	at usantatecla.TwoOpenIntervalsTest.givenTwoIntervalsWhenFirstIncludeSecondIntervalThenFalse(TwoOpenIntervalsTest.java:37)
+
