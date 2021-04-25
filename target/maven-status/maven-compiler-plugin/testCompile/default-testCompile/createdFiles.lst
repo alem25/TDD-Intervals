@@ -4,5 +4,6 @@ usantatecla\BuilderIntervalTest.class
 usantatecla\IntervalTest.class
 usantatecla\ClosedMaxTest.class
 usantatecla\ClosedMinTest.class
+usantatecla\TwoClosedIntervalsTest.class
 usantatecla\TwoOpenIntervalsTest.class
 usantatecla\MinTest.class
