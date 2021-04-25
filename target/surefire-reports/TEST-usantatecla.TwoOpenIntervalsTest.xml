@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="usantatecla.TwoOpenIntervalsTest" time="0.014" tests="2" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="usantatecla.TwoOpenIntervalsTest" time="0.003" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.10+9"/>
@@ -64,10 +64,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="givenTwoIntervalsWhenFirstIncludeSecondIntervalThenFalse" classname="usantatecla.TwoOpenIntervalsTest" time="0.013">
-    <failure message="expected: &lt;false&gt; but was: &lt;true&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <false> but was: <true>
-	at usantatecla.TwoOpenIntervalsTest.givenTwoIntervalsWhenFirstIncludeSecondIntervalThenFalse(TwoOpenIntervalsTest.java:37)
-]]></failure>
-  </testcase>
+  <testcase name="givenTwoIntervalsWhenFirstIncludeSecondIntervalThenFalse" classname="usantatecla.TwoOpenIntervalsTest" time="0"/>
   <testcase name="givenTwoIntervalsWhenFirstIncludeSecondIntervalThenTrue" classname="usantatecla.TwoOpenIntervalsTest" time="0"/>
 </testsuite>
