@@ -16,7 +16,7 @@ public class Interval {
 	}
 
 	public boolean includeOtherInterval(Interval secondInterval) {
-		if (this.max.value < secondInterval.min.value)
+		if (this.max.value < secondInterval.min.value || this.min.value > secondInterval.max.value)
 			return false;
 		return true;
 	}
